@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color:white;
+    z-index: -2;
+    position: relative;
+    padding: auto auto 0 auto;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 600;   
+}
+
+.download-button{
+    margin: 5% 3% 5%;
+}
+
+.app-image{
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    left: 25%;
+    top:25%;
+    transform: rotate(15deg);
+}
+
+#features{
+    text-align: center;
+    padding:7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-img{
+    margin: 20px 0px;
+    color:#ef8172;
+}
+.feature-img:hover{
+    color: #ff4c68;
+}
+.feature-item{
+    padding: 30px;
+}
+.feature-item h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 800;
+}
+
+.feature-item p{
+    margin: 0 auto 0 auto;
+    color:#8f8f8f;
+}
+#testimonials{
+    background-color: #ef8172;
+    color:white;
+    text-align: center;
+}
+#testimonials h2{
+    font-size: 3.25rem;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 800;
+}
+#testimonials img{
+    width: 10%;
+    border-radius: 50%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    
+}
+
+#press img{
+    width: 200px;
+    padding-bottom: 3%;
+    margin: 20px 10px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 10% 20%;
+    background-color: #ff4c68;
+    color: white;
+}
+#footer{
+text-align: center;
+padding: 5% 30%;
+}
+#footer i{
+    margin: 2% 2% 4% 2%;
+}
+
+@media (max-width : 1028px) {
+
+    .app-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
